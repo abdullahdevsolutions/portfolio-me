@@ -10,7 +10,7 @@ const Navbar = () => {
       <header className="text-gray-600 body-font ">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 ">
-            <Image src={require("../../../public/assets/logo.jpg")} alt="Abdullah" className="h-[45px] w-[45px] shadow-red-700 shadow-lg hover:shadow-none  rounded-full"></Image>
+            <Image src={require("../../../public/assets/abdullah.jpg")} alt="Abdullah" className="h-[45px] w-[45px]  shadow-lg hover:shadow-none  rounded-full"></Image>
             {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -42,7 +42,7 @@ const Navbar = () => {
               Contact
             </Link>
           </nav>
-          <a href="/assets/CV.pdf">
+          <a href="/assets/Abdullah Azhar.pdf">
           <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
             Download CV
             <IoCloudDownloadSharp className="ml-3 text-[22px] hover:text-[25px] hover:text-green-600" />

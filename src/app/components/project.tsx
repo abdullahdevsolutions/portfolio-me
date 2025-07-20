@@ -13,6 +13,156 @@ const Project = () => {
      
     </div>
     <div className="flex flex-wrap -m-4">
+            <div className="lg:w-1/4 sm:w-1/2 p-4">
+        <div className="flex relative">
+          <Image
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src={require("../../../public/assets/sofaclean.jpg")}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
+              sofaclean.ch
+            </h2>
+            <h1 className="title-font text-lg font-medium text-white mb-3">
+              Cleaning Services Website
+            </h1>
+            <p className="leading-relaxed">
+              This is the Cleaning Website using HTMl, CSS, JS and Codeigniter.
+            </p>
+            <Link href={"https://sofaclean.ch/en"} target="_blank ">
+            <p className="leading-relaxed text-blue-500">
+              View Project...
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
+            <div className="lg:w-1/4 sm:w-1/2 p-4">
+        <div className="flex relative">
+          <Image
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src={require("../../../public/assets/appcoding.jpg")}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
+              appcoding.tech
+            </h2>
+            <h1 className="title-font text-lg font-medium text-white mb-3">
+              Company Website
+            </h1>
+            <p className="leading-relaxed">
+              This is the Company Website using HTMl, CSS, JS and Codeigniter.
+            </p>
+            <Link href={"https://appcoding.tech/"} target="_blank ">
+            <p className="leading-relaxed text-blue-500">
+              View Project...
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
+            <div className="lg:w-1/4 sm:w-1/2 p-4">
+        <div className="flex relative">
+          <Image
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src={require("../../../public/assets/dealtours.jpg")}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
+              deal.tours
+            </h2>
+            <h1 className="title-font text-lg font-medium text-white mb-3">
+              Tours Website
+            </h1>
+            <p className="leading-relaxed">
+              This is the Tours Website using HTMl, CSS, JS and Codeigniter.
+            </p>
+            <Link href={"https://deal.tours/"} target="_blank ">
+            <p className="leading-relaxed text-blue-500">
+              View Project...
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
+            <div className="lg:w-1/4 sm:w-1/2 p-4">
+        <div className="flex relative">
+          <Image
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src={require("../../../public/assets/hajj.jpg")}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
+              hajjbookings.pk
+            </h2>
+            <h1 className="title-font text-lg font-medium text-white mb-3">
+              Hajj Booking Website
+            </h1>
+            <p className="leading-relaxed">
+              This is the Hajj Website using HTMl, CSS, JS and Codeigniter.
+            </p>
+            <Link href={"https://hajjbookings.pk/"} target="_blank ">
+            <p className="leading-relaxed text-blue-500">
+              View Project...
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
+            <div className="lg:w-1/4 sm:w-1/2 p-4">
+        <div className="flex relative">
+          <Image
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src={require("../../../public/assets/disposal.jpg")}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
+              disposal.ch
+            </h2>
+            <h1 className="title-font text-lg font-medium text-white mb-3">
+              Disposal Services Website
+            </h1>
+            <p className="leading-relaxed">
+              This is the Disposal Website using HTMl, CSS, JS and Codeigniter.
+            </p>
+            <Link href={"https://disposal.ch/"} target="_blank ">
+            <p className="leading-relaxed text-blue-500">
+              View Project...
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
+            <div className="lg:w-1/4 sm:w-1/2 p-4">
+        <div className="flex relative">
+          <Image
+            alt="gallery"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src={require("../../../public/assets/visaworld.jpg")}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
+              visaworldinfo.com
+            </h2>
+            <h1 className="title-font text-lg font-medium text-white mb-3">
+              Visa Services Website
+            </h1>
+            <p className="leading-relaxed">
+              This is the Visa Website using HTMl, CSS, JS and Codeigniter.
+            </p>
+            <Link href={"https://visaworldinfo.com/"} target="_blank ">
+            <p className="leading-relaxed text-blue-500">
+              View Project...
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
       <div className="lg:w-1/4 sm:w-1/2 p-4 ">
         <div className="flex relative">
           <Image
@@ -113,6 +263,7 @@ const Project = () => {
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>

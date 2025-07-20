@@ -14,11 +14,11 @@ const Footer = () => {
       <footer className="text-gray-600 body-font bg-[#171722]">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <Image src={require("../../../public/assets/logo2.jpg")} alt="logo" className="h-[45px] w-[45px] rounded-full" ></Image>
+            <Image src={require("../../../public/assets/abdullah.jpg")} alt="logo" className="h-[45px] w-[45px] rounded-full" ></Image>
             <span className="text-[#aa76db] ml-3 text-xl">Abdullah</span> <span className="text-white">Azhar</span>
           </a>
           <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            © 2024 Portfolio —
+            © 2025 Portfolio —
             <a
               href="https://www.facebook.com/abdullah.azhar.7549/"
               className="text-gray-600 ml-1"

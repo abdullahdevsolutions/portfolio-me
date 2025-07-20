@@ -3,6 +3,7 @@ import { TfiHtml5 } from "react-icons/tfi";
 import { IoLogoCss3 } from "react-icons/io";
 import { DiJavascript } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
+import { SiCodeigniter, SiLaravel, SiTailwindcss } from "react-icons/si";
 
 const Skill = () => {
   return (
@@ -167,6 +168,94 @@ const Skill = () => {
           </div>
         </div>
       </div>
+      {/* Tailwind CSS Card */}
+<div className="p-4 md:w-1/2 xl:w-1/4">
+  <div className="flex rounded-lg h-full bg-gray-400 p-8 flex-col">
+    <div className="flex items-center mb-3">
+      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-cyan-500 text-white flex-shrink-0">
+        <SiTailwindcss />
+      </div>
+      <h2 className="text-gray-900 text-lg title-font font-medium">
+        <span>Tailwind CSS Developer</span>
+        <br />
+        <span>(2024-Present)</span>
+      </h2>
+    </div>
+    <div className="flex-grow text-black">
+      <p className="leading-relaxed text-base line-clamp-3">
+        Tailwind CSS is a utility-first CSS framework packed with classes that can be composed to build any design directly in your markup.
+      </p>
+      <a className="mt-3 text-indigo-500 inline-flex items-center">
+        Learn More
+        <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7" />
+        </svg>
+      </a>
+      <div className="h-1 w-full bg-cyan-500 mt-3"></div>
+      <p className="text-cyan-500 text-right">95%</p>
+    </div>
+  </div>
+</div>
+      {/* CodeIgniter Card */}
+<div className="p-4 md:w-1/2 xl:w-1/4">
+  <div className="flex rounded-lg h-full bg-gray-400 p-8 flex-col">
+    <div className="flex items-center mb-3">
+      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-600 text-white flex-shrink-0">
+        <SiCodeigniter />
+      </div>
+      <h2 className="text-gray-900 text-lg title-font font-medium">
+        <span>CodeIgniter Developer</span>
+        <br />
+        <span>(2025-Present)</span>
+      </h2>
+    </div>
+    <div className="flex-grow text-black">
+      <p className="leading-relaxed text-base line-clamp-3">
+        CodeIgniter is a powerful PHP framework with a small footprint, designed for developers who need a simple and elegant toolkit.
+      </p>
+      <a className="mt-3 text-indigo-500 inline-flex items-center">
+        Learn More
+        <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7" />
+        </svg>
+      </a>
+      <div className="h-1 w-full bg-red-600 mt-3"></div>
+      <p className="text-red-600 text-right">90%</p>
+    </div>
+  </div>
+</div>
+
+{/* Laravel Card */}
+<div className="p-4 md:w-1/2 xl:w-1/4">
+  <div className="flex rounded-lg h-full bg-gray-400 p-8 flex-col">
+    <div className="flex items-center mb-3">
+      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-red-700 text-white flex-shrink-0">
+        <SiLaravel />
+      </div>
+      <h2 className="text-gray-900 text-lg title-font font-medium">
+        <span>Laravel Developer</span>
+        <br />
+        <span>(2025-Present)</span>
+      </h2>
+    </div>
+    <div className="flex-grow text-black">
+      <p className="leading-relaxed text-base line-clamp-3">
+        Laravel is a PHP web application framework with expressive, elegant syntax. It's used for building robust and secure web applications.
+      </p>
+      <a className="mt-3 text-indigo-500 inline-flex items-center">
+        Learn More
+        <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7" />
+        </svg>
+      </a>
+      <div className="h-1 w-full bg-red-700 mt-3"></div>
+      <p className="text-red-700 text-right">85%</p>
+    </div>
+  </div>
+</div>
+
+
+
     </div>
   </div>
 </section>

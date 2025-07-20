@@ -19,9 +19,10 @@ const About = () => {
         <br className="hidden lg:inline-block" />
         
       </h1>
-      <p className="mb-8 leading-relaxed text-white sm:line-clamp-2 md:line-clamp-none lg:line-clamp-none">
-      As a BSCS student at Szabist University, I am passionate about web development, constantly honing my skills to create innovative and user-friendly digital experiences. With a keen interest in front-end and back-end technologies, I strive to merge creativity with functionality in every project I undertake.
-      </p>
+   <p className="mb-8 leading-relaxed text-white sm:line-clamp-2 md:line-clamp-none lg:line-clamp-none">
+  I'm a passionate full-stack web developer with 2+ years of hands-on experience in both front-end and back-end technologies. I specialize in creating clean, responsive, and interactive user interfaces using HTML, CSS, JavaScript, TypeScript, Bootstrap, React, Next.js, and AJAX. On the backend, I build scalable and secure web applications using PHP, CodeIgniter, and Laravel. I love writing code that not only works — but works smartly, blending performance with great user experience.
+</p>
+
       <div className="flex justify-center">
         <button className="inline-flex text-white bg-[#aa76db] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
           View CV

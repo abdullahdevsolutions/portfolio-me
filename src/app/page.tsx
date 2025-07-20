@@ -15,9 +15,11 @@ export default function Home() {
       <Skill/>
       <Project/>
       <Contact/>
-      <Link href={"/"}>
+      {/* <Link href={"/"}> */}
+      <a href="#top-hero">
       <button className="border border-black w-[145px] h-10 bg-red-700 text-white fixed bottom-20 right-3 pr-[12px] ">Back to Top<FaArrowAltCircleUp className="absolute top-2.5 text-xl right-1"/></button>
-      </Link>
+      </a>
+      {/* </Link> */}
    </div>
   );
 }
