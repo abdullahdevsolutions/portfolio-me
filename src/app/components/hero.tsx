@@ -21,7 +21,7 @@ const Hero = () => {
 />
             </h1>
             <p className="mb-8 leading-relaxed">
-  I'm a dedicated Web Developer with 2 years of hands-on experience in building dynamic and scalable web applications using PHP, CodeIgniter, and Laravel. Currently pursuing my BSCS at Szabist University, I enjoy transforming ideas into real-world solutions that are clean, efficient, and user-friendly. Whether it's front-end design or back-end logic, I aim to craft experiences that not only work—but feel great to use.
+  I&rsquo;m a dedicated Web Developer with 2 years of hands-on experience in building dynamic and scalable web applications using PHP, CodeIgniter, and Laravel. Currently pursuing my BSCS at Szabist University, I enjoy transforming ideas into real-world solutions that are clean, efficient, and user-friendly. Whether it&rsquo;s front-end design or back-end logic, I aim to craft experiences that not only work—but feel great to use.
 </p>
 
             <div className="flex justify-center">

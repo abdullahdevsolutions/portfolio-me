@@ -240,7 +240,7 @@ const Skill = () => {
     </div>
     <div className="flex-grow text-black">
       <p className="leading-relaxed text-base line-clamp-3">
-        Laravel is a PHP web application framework with expressive, elegant syntax. It's used for building robust and secure web applications.
+        Laravel is a PHP web application framework with expressive, elegant syntax. It&rsquo;s used for building robust and secure web applications.
       </p>
       <a className="mt-3 text-indigo-500 inline-flex items-center">
         Learn More
