@@ -10,7 +10,13 @@ const Navbar = () => {
       <header className="text-gray-600 body-font ">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 ">
-            <Image src={require("../../../public/assets/abdullah.jpg")} alt="Abdullah" className="h-[45px] w-[45px]  shadow-lg hover:shadow-none  rounded-full"></Image>
+            <Image
+              src="/assets/abdullah.jpg"
+              alt="Abdullah"
+              width={45}
+              height={45}
+              className="h-[45px] w-[45px] shadow-lg hover:shadow-none rounded-full"
+            />
             {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

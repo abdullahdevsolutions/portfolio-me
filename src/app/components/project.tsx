@@ -12,13 +12,69 @@ const Project = () => {
       </h1>
      
     </div>
-    <div className="flex flex-wrap -m-4">
+      <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/4 sm:w-1/2 p-4">
-        <div className="flex relative">
+        <div className="flex relative h-64">
+          <Image
+            alt="onzo cleaning services"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src="/assets/onzo.webp"
+            width={400}
+            height={300}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
+              onzo.ae
+            </h2>
+            <h1 className="title-font text-lg font-medium text-white mb-3">
+              UAE Cleaning Services
+            </h1>
+            <p className="leading-relaxed">
+              End-to-end cleaning services platform for residential and commercial clients across the UAE.
+            </p>
+            <Link href={"https://onzo.ramiant.com/"} target="_blank ">
+            <p className="leading-relaxed text-blue-500">
+              View Project...
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
+            <div className="lg:w-1/4 sm:w-1/2 p-4">
+        <div className="flex relative h-64">
+          <Image
+            alt="statement management system"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            src="/assets/statement.webp"
+            width={400}
+            height={300}
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
+              wycglobal.co.uk
+            </h2>
+            <h1 className="title-font text-lg font-medium text-white mb-3">
+              Statement Management System
+            </h1>
+            <p className="leading-relaxed">
+              Secure portal that lets clients upload, review, and organize their bank statements in real time.
+            </p>
+            <Link href={"https://system.wycglobal.co.uk/"} target="_blank ">
+            <p className="leading-relaxed text-blue-500">
+              View Project...
+            </p>
+            </Link>
+          </div>
+        </div>
+      </div>
+            <div className="lg:w-1/4 sm:w-1/2 p-4">
+        <div className="flex relative h-64">
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/sofaclean.jpg")}
+            src="/assets/sofaclean.jpg"
+            width={400}
+            height={300}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
@@ -39,11 +95,13 @@ const Project = () => {
         </div>
       </div>
             <div className="lg:w-1/4 sm:w-1/2 p-4">
-        <div className="flex relative">
+        <div className="flex relative h-64">
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/appcoding.jpg")}
+            src="/assets/appcoding.jpg"
+            width={400}
+            height={300}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
@@ -64,11 +122,13 @@ const Project = () => {
         </div>
       </div>
             <div className="lg:w-1/4 sm:w-1/2 p-4">
-        <div className="flex relative">
+        <div className="flex relative h-64">
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/dealtours.jpg")}
+            src="/assets/dealtours.jpg"
+            width={400}
+            height={300}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
@@ -89,11 +149,13 @@ const Project = () => {
         </div>
       </div>
             <div className="lg:w-1/4 sm:w-1/2 p-4">
-        <div className="flex relative">
+        <div className="flex relative h-64">
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/hajj.jpg")}
+            src="/assets/hajj.jpg"
+            width={400}
+            height={300}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
@@ -114,11 +176,13 @@ const Project = () => {
         </div>
       </div>
             <div className="lg:w-1/4 sm:w-1/2 p-4">
-        <div className="flex relative">
+        <div className="flex relative h-64">
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/disposal.jpg")}
+            src="/assets/disposal.jpg"
+            width={400}
+            height={300}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
@@ -139,11 +203,13 @@ const Project = () => {
         </div>
       </div>
             <div className="lg:w-1/4 sm:w-1/2 p-4">
-        <div className="flex relative">
+        <div className="flex relative h-64">
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/visaworld.jpg")}
+            src="/assets/visaworld.jpg"
+            width={400}
+            height={300}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
@@ -164,11 +230,13 @@ const Project = () => {
         </div>
       </div>
       <div className="lg:w-1/4 sm:w-1/2 p-4 ">
-        <div className="flex relative">
+        <div className="flex relative h-64">
           <Image
             alt="portfolio"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/Portfolio.PNG")}
+            src="/assets/Portfolio.PNG"
+            width={400}
+            height={300}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
@@ -189,11 +257,13 @@ const Project = () => {
         </div>
       </div>
       <div className="lg:w-1/4 sm:w-1/2 p-4 " >
-        <div className="flex relative">
+        <div className="flex relative h-64">
           <Image
             alt="clone"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/Microsoft.PNG")}
+            src="/assets/Microsoft.PNG"
+            width={400}
+            height={300}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
@@ -214,11 +284,13 @@ const Project = () => {
         </div>
       </div>
       <div className="lg:w-1/4 sm:w-1/2 p-4">
-        <div className="flex relative">
+        <div className="flex relative h-64">
           <Image
             alt="facebook"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/Facebook.PNG")}
+            src="/assets/Facebook.PNG"
+            width={400}
+            height={300}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
@@ -239,11 +311,13 @@ const Project = () => {
         </div>
       </div>
       <div className="lg:w-1/4 sm:w-1/2 p-4">
-        <div className="flex relative">
+        <div className="flex relative h-64">
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/assets/Clock.png")}
+            src="/assets/Clock.png"
+            width={400}
+            height={300}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-[#000021] opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-red-500 mb-1">
