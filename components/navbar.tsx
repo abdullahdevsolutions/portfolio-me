@@ -1,58 +1,63 @@
-"use client"
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import { IoCloudDownloadSharp } from "react-icons/io5";
 
+const navItems = [
+  { href: "#About", label: "About" },
+  { href: "#Skill", label: "Skills" },
+  { href: "#Project", label: "Projects" },
+  { href: "#Contact", label: "Contact" },
+];
 
 const Navbar = () => {
   return (
-    <div className="bg-[#12123e] sticky top-0 z-50">
-      <header className="text-gray-600 body-font ">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 ">
-            <Image
-              src="/assets/abdullah.jpg"
-              alt="Abdullah"
-              width={45}
-              height={45}
-              className="h-[45px] w-[45px] shadow-lg hover:shadow-none rounded-full"
-            />
-            {/* <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-              viewBox="0 0 24 24"
+    <div className="sticky top-0 z-50 border-b border-white/10 bg-[rgba(42,27,23,0.72)] shadow-[0_10px_40px_-20px_rgba(0,0,0,0.75)] backdrop-blur-xl">
+      <header className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-4 md:flex-row md:items-center md:justify-between">
+        <Link href="/" className="flex items-center gap-3 text-slate-100">
+          <Image
+            src="/assets/abdullah.jpg"
+            alt="Abdullah Azhar"
+            width={48}
+            height={48}
+            className="h-12 w-12 rounded-full border border-white/20 shadow-lg shadow-black/40"
+          />
+          <div>
+            <p className="text-xs uppercase tracking-[0.35em] text-amber-200/80">
+              Portfolio of
+            </p>
+            <p className="text-lg font-semibold text-white md:text-xl">
+              Abdullah <span className="text-amber-300">Azhar</span>
+            </p>
+          </div>
+        </Link>
+
+        <nav className="flex flex-wrap items-center justify-center gap-4 text-sm font-medium text-slate-200 md:gap-8 md:justify-end">
+          {navItems.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="group relative transition-colors duration-200 hover:text-amber-200"
             >
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg> */}
-            <span className="ml-3 text-xl text-white"><span className="text-[#aa76db]">Abdullah</span> Azhar</span>
-          </a>
-          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center text-white">
-            <Link href="/" className="mr-5 hover:text-orange-600 hover:text-xl">
-              Home
+              {item.label}
+              <span className="pointer-events-none absolute -bottom-1 left-0 h-px w-full scale-x-0 bg-gradient-to-r from-amber-400 via-amber-200 to-transparent transition-transform duration-200 ease-out group-hover:scale-x-100" />
             </Link>
-            <Link href="#About" className="mr-5 hover:text-orange-600 hover:text-xl">
-              About
-            </Link>
-            <Link href="#Skill" className="mr-5 hover:text-orange-600 hover:text-xl">
-              Skills
-            </Link>
-            <Link href="#Project" className="mr-5 hover:text-orange-600 hover:text-xl">
-              Projects
-            </Link>
-            <Link href={"#Contact"} className="mr-5 hover:text-orange-600 hover:text-xl">
-              Contact
-            </Link>
-          </nav>
-          <a href="/assets/Abdullah Azhar.pdf">
-          <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+          ))}
+        </nav>
+
+        <div className="flex items-center gap-3">
+          <Link
+            href="#Contact"
+            className="hidden rounded-full border border-white/20 px-4 py-2 text-sm font-medium text-slate-200 transition-colors hover:border-amber-400 hover:text-amber-200 md:inline-flex"
+          >
+            Let&apos;s Talk
+          </Link>
+          <a
+            href="/assets/Abdullah Azhar.pdf"
+            className="inline-flex items-center gap-2 rounded-full bg-amber-500 px-5 py-2 text-sm font-semibold text-white shadow-lg shadow-amber-500/30 transition-transform duration-200 hover:-translate-y-0.5 hover:bg-amber-400"
+          >
             Download CV
-            <IoCloudDownloadSharp className="ml-3 text-[22px] hover:text-[25px] hover:text-green-600" />
-          </button>
+            <IoCloudDownloadSharp className="text-base" />
           </a>
         </div>
       </header>
