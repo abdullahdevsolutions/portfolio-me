@@ -1,10 +1,9 @@
 "use client"
-import Link from "next/link";
-import Hero from "./components/hero";
-import Contact from "./components/contact";
-import Project from "./components/project";
-import About from "./components/about";
-import Skill from "./components/skill";
+import Hero from "@/components/hero";
+import Contact from "@/components/contact";
+import Project from "@/components/project";
+import About from "@/components/about";
+import Skill from "@/components/skill";
 import { FaArrowAltCircleUp } from "react-icons/fa";
 
 export default function Home() {
